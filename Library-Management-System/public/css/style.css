@@ -1,0 +1,26 @@
+body { font-family: 'Inter', sans-serif; background-color: #f7f9fb; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+
+/* Active sidebar tab: left border + tinted bg */
+.active-nav {
+    color: #3525cd !important;
+    font-weight: 700 !important;
+    background-color: #e2dfff !important;
+    border-left: 3px solid #3525cd;
+    padding-left: 13px !important;
+}
+
+/* Non-active sidebar hover */
+.tab-btn:not(.active-nav):hover {
+    background-color: #eceef0 !important;
+    color: #191c1e !important;
+}
+
+/* Panel visibility */
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Table row hover */
+.lms-table tr:hover td { background-color: #f2f4f6; color: #191c1e; }
+
+#login-error { color: #ba1a1a; font-size: 13px; min-height: 18px; }
