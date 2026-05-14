@@ -1,0 +1,127 @@
+{
+    "books": [
+        {
+            "Author": "Robert C. Martin",
+            "BookID": 1001,
+            "CopiesAvailable": 0,
+            "Genre": "Software Engineering",
+            "Title": "Clean Code"
+        },
+        {
+            "Author": "David Thomas",
+            "BookID": 1002,
+            "CopiesAvailable": 0,
+            "Genre": "Software Engineering",
+            "Title": "The Pragmatic Programmer"
+        },
+        {
+            "Author": "Thomas H. Cormen",
+            "BookID": 1003,
+            "CopiesAvailable": 4,
+            "Genre": "Computer Science",
+            "Title": "Introduction to Algorithms"
+        },
+        {
+            "Author": "Gang of Four",
+            "BookID": 1004,
+            "CopiesAvailable": 0,
+            "Genre": "Software Architecture",
+            "Title": "Design Patterns"
+        },
+        {
+            "Author": "Sun Tzu",
+            "BookID": 1005,
+            "CopiesAvailable": 5,
+            "Genre": "Philosophy",
+            "Title": "The Art of War"
+        }
+    ],
+    "borrowHistory": [
+        {
+            "BookID": 1001,
+            "BorrowDate": "2025-04-10",
+            "MemberID": "LB3821",
+            "ReturnDate": ""
+        },
+        {
+            "BookID": 1003,
+            "BorrowDate": "2025-04-15",
+            "MemberID": "KR5514",
+            "ReturnDate": "2025-05-01"
+        },
+        {
+            "BookID": 1005,
+            "BorrowDate": "2025-05-01",
+            "MemberID": "ZP1177",
+            "ReturnDate": "2025-05-10"
+        }
+    ],
+    "members": [
+        {
+            "Address": "45 Tahrir Sq, Giza",
+            "Email": "s.hassan@uni.edu",
+            "ID": "KR5514",
+            "Name": "Sara Hassan",
+            "Phone": "01098765432"
+        },
+        {
+            "Address": "7 Nile Corniche, Alexandria",
+            "Email": "o.farouk@uni.edu",
+            "ID": "DX9043",
+            "Name": "Omar Farouk",
+            "Phone": "01234567890"
+        },
+        {
+            "Address": "22 El-Nasr Rd, Heliopolis",
+            "Email": "l.ahmed@uni.edu",
+            "ID": "ZP1177",
+            "Name": "Layla Ahmed",
+            "Phone": "01555000111"
+        },
+        {
+            "Address": "3 Pyramid Blvd, Giza",
+            "Email": "y.mansour@uni.edu",
+            "ID": "WC6692",
+            "Name": "Yousef Mansour",
+            "Phone": "01001234567"
+        },
+        {
+            "Address": "",
+            "Email": "@gmail.com",
+            "ID": "BU7409",
+            "Name": "Mohamed salah",
+            "Phone": "011"
+        },
+        {
+            "Address": "",
+            "Email": "mohamed@gmail.com",
+            "ID": "TG2679",
+            "Name": "Mohamed Ashraf",
+            "Phone": "012345678"
+        }
+    ],
+    "reservations": [
+        {
+            "BookID": 1004,
+            "MemberID": "LB3821"
+        },
+        {
+            "BookID": 1001,
+            "MemberID": "DX9043"
+        },
+        {
+            "BookID": 1003,
+            "MemberID": "WC6692"
+        }
+    ],
+    "returnStack": [
+        {
+            "BookID": 1003,
+            "MemberID": "KR5514"
+        },
+        {
+            "BookID": 1005,
+            "MemberID": "ZP1177"
+        }
+    ]
+}
